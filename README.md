@@ -27,8 +27,12 @@ bt_methods:
     CrossValidation and WalkForward contains methods for different backtesting types
 
 ### Package requirement:
-pip install yfinance
-pip install fix-yahoo-finance==0.1.30
-pip install PyPortfolioOpt
-pip install cvxpy
+pip install yfinance  
+
+pip install fix-yahoo-finance==0.1.30  
+
+pip install PyPortfolioOpt  
+
+pip install cvxpy  
+
 pip install cvxopt
