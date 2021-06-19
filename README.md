@@ -14,16 +14,20 @@ The program performs a backtest for each of the ‘backtest_months’ previous m
 (by using the exact same portfolio optimization parameters). It returns the realized and expected portfolio
 stats and the quantities of shares that should be bought today for the given AUM.
 
-### Module description:
-optimize_portfolio:
+### Project Structure:
+optimize_portfolio:\n
     process arguments and run program
-get_prices:
+ 
+get_prices:\n
     obtain historic prices of each of the tickers with yfinance, and consolidate as a pandas dataframe
-get_portfolio:
+    
+get_portfolio:\n
     performs portfolio optimization using PyPortfolioOpt.
-backtest:
+    
+backtest:\n
     Backtest has functions for performing backtesting with the optimized portfolio.
-bt_methods:
+    
+bt_methods:\n
     BacktestBasics stores basic information for backtesting
     CrossValidation and WalkForward contains methods for different backtesting types
 
