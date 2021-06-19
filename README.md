@@ -7,7 +7,7 @@ This python program  uses the PyPortfolioOpt library to find out the optimal ass
 for today and for a given basket of stocks.
 
 User can call the program following this example:
-optimize_portfolio.py --tickers GOOG,AAPL,FB --optimizer mvo --aum 10000 --backtest_months 12 --test_months 1 --backtest_type wf --plot_weights
+```optimize_portfolio.py --tickers GOOG,AAPL,FB --optimizer mvo --aum 10000 --backtest_months 12 --test_months 1 --backtest_type wf --plot_weights```
 
 The program performs a backtest for each of the ‘backtest_months’ previous months
 (by using the exact same portfolio optimization parameters). It returns the realized and expected portfolio
