@@ -18,16 +18,16 @@ stats and the quantities of shares that should be bought today for the given AUM
 `optimize_portfolio.py`:  
     process arguments and run program
  
-`get_prices`:  
+`get_prices.py`:  
     obtain historic prices of each of the tickers with yfinance, and consolidate as a pandas dataframe
     
-`get_portfolio`:  
+`get_portfolio.py`:  
     performs portfolio optimization using PyPortfolioOpt.
     
-`backtest`:  
+`backtest.py`:  
     Backtest has functions for performing backtesting with the optimized portfolio.
     
-`bt_methods`:  
+`bt_methods.py`:  
     BacktestBasics stores basic information for backtesting
     CrossValidation and WalkForward contains methods for different backtesting types
 
