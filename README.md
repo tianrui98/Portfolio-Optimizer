@@ -3,7 +3,7 @@
 ## Data Science for Quantitative Finance - Final Project
 
 ### Project description:
-This python program  uses the PyPortfolioOpt library to find out the optimal asset allocation
+This python program uses the PyPortfolioOpt library to find out the optimal asset allocation
 for today and for a given basket of stocks.
 
 User can call the program following this example:
