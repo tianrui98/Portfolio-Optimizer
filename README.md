@@ -12,7 +12,7 @@ User can call the program following this example:
 
 The program performs a backtest for each of the ‘backtest_months’ previous months
 (by using the exact same portfolio optimization parameters). It returns the realized and expected portfolio
-stats and the quantities of shares that should be bought today for the given AUM.
+stats and the quantities of shares that should be bought today for the given Asset Under Management(AUM).
 
 ### Project Structure:
 `optimize_portfolio.py`:  
